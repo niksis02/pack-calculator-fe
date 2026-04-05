@@ -125,3 +125,5 @@ The repository has two GitHub Actions workflows:
 On every merge to `main` the image is built with the production `VITE_API_BASE_URL`, tagged with the commit SHA, pushed to **AWS ECR**, and deployed to **AWS ECS Fargate** with a rolling update. The workflow waits for service stability before completing.
 
 Required repository secrets: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_ACCOUNT_ID`, `AWS_REGION`, `VITE_API_BASE_URL`.
+
+The application is live at **https://d278wsrjbdo0nx.cloudfront.net/**
