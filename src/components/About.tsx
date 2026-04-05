@@ -152,8 +152,7 @@ export default function About() {
             {
               name: 'Frontend',
               url: 'https://github.com/niksis02/pack-calculator-fe',
-              description:
-                'React SPA — the user-facing calculator and pack size configuration UI.',
+              description: 'React SPA — the user-facing calculator and pack size configuration UI.',
             },
             {
               name: 'Backend',
