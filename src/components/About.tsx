@@ -197,6 +197,18 @@ export default function About() {
         </p>
       </section>
 
+      <section>
+        <h2 className="text-xl font-semibold text-blue-700 mb-3">Final Notes</h2>
+        <p className="text-gray-700 leading-relaxed">
+          Originally, the plan was to configure TLS and serve both the website and the backend API
+          over HTTPS using <strong>CloudFront</strong>. However, CloudFront does not allow applying
+          custom SSL/TLS policies on the free plan, which made proper HTTPS configuration
+          impractical without incurring additional cost. To avoid spending more time on
+          infrastructure configuration, the decision was made to move on and serve everything over
+          HTTP via the <strong>ALB load balancer domain</strong> instead.
+        </p>
+      </section>
+
       <section className="border-t border-gray-200 pt-6">
         <p className="text-sm text-gray-500 italic text-center">
           Built by{' '}
