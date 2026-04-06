@@ -126,4 +126,4 @@ On every merge to `main` the image is built with the production `VITE_API_BASE_U
 
 Required repository secrets: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_ACCOUNT_ID`, `AWS_REGION`, `VITE_API_BASE_URL`.
 
-The application is live at **https://d278wsrjbdo0nx.cloudfront.net/**
+The application is live at **http://pack-calculator-frontend-alb-1042378341.eu-central-1.elb.amazonaws.com**
